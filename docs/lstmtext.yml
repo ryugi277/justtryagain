@@ -1,0 +1,17 @@
+tags:
+  - name: Sentiment Analysis using LSTM (Text)
+get:
+  description: Post a text file to analyze
+responses:
+   '200':
+     description: Sucessful response
+   '400':
+      description: Bad Request
+   '500':
+      description: Internal Server Error
+parameters:
+  - name: text
+    in: formData
+    required: false
+    type: text
+    description: input your text

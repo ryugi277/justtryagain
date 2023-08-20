@@ -1,0 +1,17 @@
+tags:
+  - name: Sentiment Analysis using NN (File)
+get:
+  description: Post a csv file to analyze
+parameters:
+  - name: file
+    in: formData
+    required: false
+    type: file
+    description: The file to upload.
+responses:
+  "200":
+    description: Sucessful response
+  "400":
+    description: Bad Request
+  "500":
+    description: Internal Server Error

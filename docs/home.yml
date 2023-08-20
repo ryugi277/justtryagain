@@ -1,0 +1,11 @@
+tags:
+  - name: Welcome Page
+get:
+  description: Welcome to our project! RY & AY
+responses:
+    '200':
+      description: Succesful response
+    '400':
+      description: Bad Request
+    '500':
+      description: Internal Server Error
